@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:4200",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\tongl\\Desktop\\GitTo\\GitTo.Server\\..\\gitto.client",
+"MaxTimeoutInSeconds": "120"
+}
+}

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitTo.Server", "GitTo.Server\GitTo.Server.csproj", "{2B2ECCA7-F048-4157-9BD3-7FCB5437DD00}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "gitto.client", "gitto.client\gitto.client.esproj", "{CC649955-3BD8-4C0B-AFD7-166B86792BB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B2ECCA7-F048-4157-9BD3-7FCB5437DD00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2ECCA7-F048-4157-9BD3-7FCB5437DD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2ECCA7-F048-4157-9BD3-7FCB5437DD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2ECCA7-F048-4157-9BD3-7FCB5437DD00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC649955-3BD8-4C0B-AFD7-166B86792BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC649955-3BD8-4C0B-AFD7-166B86792BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC649955-3BD8-4C0B-AFD7-166B86792BB0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CC649955-3BD8-4C0B-AFD7-166B86792BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC649955-3BD8-4C0B-AFD7-166B86792BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC649955-3BD8-4C0B-AFD7-166B86792BB0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E10158B-B08F-496C-BE4F-3723757CB52B}
+	EndGlobalSection
+EndGlobal

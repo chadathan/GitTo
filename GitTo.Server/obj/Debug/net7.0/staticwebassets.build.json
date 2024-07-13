@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "Xk+2z3kky9OW7L+AFXt4cn8BfoL8F5OuN0S3GQhM//o=",
+  "Source": "GitTo.Server",
+  "BasePath": "_content/GitTo.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\tongl\\Desktop\\GitTo\\gitto.client\\gitto.client.esproj",
+      "Version": 2,
+      "Source": "gitto.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
