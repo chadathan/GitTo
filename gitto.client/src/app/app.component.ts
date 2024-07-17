@@ -1,5 +1,6 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
 
 interface WeatherForecast {
   date: string;
@@ -23,15 +24,26 @@ export class AppComponent implements OnInit {
   }
 
   getForecasts() {
-    this.http.get<WeatherForecast[]>('/weatherforecast').subscribe(
+    this.http.get<any>('/api/todoHome/GetBranchOrigin').subscribe(
       (result) => {
-        this.forecasts = result;
+        console.log(result);
       },
       (error) => {
         console.error(error);
       }
     );
+    this.http.get<any>('/api/todoRopoGit/GetBranchOrigin').subscribe(
+      (result) => {
+        console.log(result);
+      },
+      (error) => {
+        console.error(error);
+      }
+    );
+    
   }
+
+
 
   title = 'gitto.client';
 }
